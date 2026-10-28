@@ -26,6 +26,7 @@ Production-style backend modules in TypeScript, each with its own tests and docu
 | Project | What it does | Stack |
 |---|---|---|
 | [auth-module](https://github.com/Hanzla831/auth-module) | Email/password login with scrypt hashing and account lockout, JWT access tokens with rotating refresh tokens and theft detection, role-based access control, and Google sign-in (OAuth 2.0 / OIDC with PKCE). 49 tests, including attack cases. | Node.js · Express · TypeScript · Vitest |
+| [rbac-module](https://github.com/Hanzla831/rbac-module) | Role-based access control: role hierarchy with inheritance and cycle detection, tenant-scoped assignments, conditional grants that narrow a permission to the record being touched, deny-overrides evaluation with a full decision trace, and privilege-escalation prevention. 85 tests. | Node.js · Express · TypeScript · Vitest |
 | [crud_project](https://github.com/Hanzla831/crud_project) | A Django CRUD application. | Python · Django |
 
 ### Work with me
